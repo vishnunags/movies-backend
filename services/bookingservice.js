@@ -1,4 +1,4 @@
-const bookingDAO = require('../dao/bookingDAO');
+const bookingDAO = require('../dao/bookingdao');
 
 const createBooking = (bookingDetails, callback) => {
     bookingDAO.createBooking(bookingDetails, (err, result) => {
