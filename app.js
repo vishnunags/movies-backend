@@ -11,5 +11,5 @@ app.use(express.static('frontend'));
 app.use('/api', movieRoutes);
 
 app.listen(port, () => {
-    console.log(`server running on http://localhost:${port}`);
+    console.log(`Server running on http://localhost:${port}`);
 });
